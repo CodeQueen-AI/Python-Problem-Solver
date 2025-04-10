@@ -2,7 +2,6 @@
 num = int(input("Enter a Number: "))
 
 sum_digits = 0
-
 while num > 0:
     sum_digits += num % 10  
     num //= 10 
